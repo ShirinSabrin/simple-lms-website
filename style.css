@@ -20,7 +20,7 @@ main{
     flex-direction: column;
 }
 /**********************
-Header section start
+Header style start
 ************************/
 .header{
     display: flex;
@@ -63,16 +63,16 @@ nav > ul >li> a{
     margin-left: 20px;
 }
 /**********************
-Header section end
+Header style end
 ************************/
 
 /* -----------------
-Main section start
+Main style start
 --------------------*/
 
-/* --------------
-top players style 
-------------------*/
+/* --------------------
+top players style start
+-------------------------*/
 .section-title{
     color: #562EFF;
     font-size: 24px;
@@ -102,6 +102,13 @@ hr{
     width: 870px;
     margin-bottom: 21px;
 }
+/* --------------------
+top players style end
+-------------------------*/
+
+/*------------------
+Top blog style start
+---------------------*/
 .blog{
     display: flex;
     align-items: center;
@@ -129,9 +136,13 @@ hr{
     display: grid;
     grid-template-columns: repeat(2,1fr);
 }
-/*-------------
- course style 
- ---------------*/
+/*------------------
+Top blog style end
+---------------------*/
+
+/*------------------
+ course style start
+ --------------------*/
  .courses{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -161,8 +172,16 @@ hr{
     position: relative;
     right: 40px;
  }
+ /*------------------
+ course style end
+ --------------------*/
+
 /* -----------------
-Main section start
+Main style end
+--------------------*/
+
+/*-----------------
+Footer style start
 --------------------*/
  footer p{
     color: #A2A2A2;
@@ -172,3 +191,6 @@ Main section start
     text-decoration: none;
     color:#FF4A60;
  }
+ /*-----------------
+Footer style end
+--------------------*/
